@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("clientes")
 public class ClienteRestController {
+    //Atualizei pelo note
+
     @Autowired
     private ClienteService clienteService;
 
